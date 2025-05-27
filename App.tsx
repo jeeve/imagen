@@ -35,7 +35,7 @@ const App: React.FC = () => {
   }, [prompt]);
 
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100 flex flex-col items-center justify-center py-8 px-4 selection:bg-indigo-500 selection:text-white">
+    <div className="bg-gray-900 text-gray-100 flex flex-col items-center justify-center py-12 px-4 selection:bg-indigo-500 selection:text-white">
       <div className="w-full max-w-2xl space-y-8">
         <header className="text-center">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
